@@ -1,0 +1,25 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# 作為最頂層的 EditorConfig 文件
+root = true
+
+# 對所有文件生效
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+indent_style = space
+indent_size = 2
+
+# 對 Markdown 文件的特殊設定
+[*.md]
+trim_trailing_whitespace = false
+
+# 對 Python 文件的特殊設定
+[*.py]
+indent_size = 4
+
+# 對 Java 文件的特殊設定
+[*.java]
+indent_size = 4
